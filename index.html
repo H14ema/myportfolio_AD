@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anandhabalan D | .NET Full Stack Engineer</title>
+
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description"
+    content="Portfolio of Anandhabalan D, a Senior .NET Full Stack Engineer specializing in C#, ASP.NET Core, Angular, SQL Server, Microservices, and Microsoft Azure.">
+  <meta name="keywords"
+    content="Anandhabalan D, .NET Full Stack Engineer, ASP.NET Core, C#, Angular, SQL Server, Azure, Microservices, Web API, Developer Portfolio">
+  <meta name="author" content="Anandhabalan D">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Anandhabalan D | .NET Full Stack Engineer">
+  <meta property="og:description"
+    content="Enterprise .NET Full Stack Engineer with 4 years of experience building scalable backend architectures, cloud-native APIs, and modern Angular web apps.">
+  <meta property="og:image" content="assets/AD.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Anandhabalan D | .NET Full Stack Engineer">
+  <meta name="twitter:description"
+    content=".NET Full Stack Engineer (C# | ASP.NET Core | Angular | SQL Server | Azure)">
+  <meta name="twitter:image" content="assets/AD.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/AD.jpg">
+
+  <!-- Google Fonts: Space Grotesk & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome CDN for UI Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Devicon CDN for Tech Logos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- =========================================================
+       SECTION 1: NAVBAR
+       Sticky blurred header with nav links, theme toggle & resume
+       ========================================================= -->
+  <header class="navbar-wrapper" id="navbar">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="Anandhabalan D Homepage">
+        <span class="logo-code">&lt;</span>AD<span class="logo-code">/&gt;</span>
+        <span class="logo-dot"></span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <ul class="nav-menu" id="nav-menu" role="menubar">
+        <li role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+        <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+        <li role="none"><a href="#experience" class="nav-link" role="menuitem">Experience</a></li>
+        <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+        <li role="none"><a href="#education" class="nav-link" role="menuitem">Education</a></li>
+        <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+
+        <!-- Mobile-only resume & theme toggle wrapper -->
+        <li class="mobile-actions" role="none">
+          <a href="assets/Anandhabalan_Developer_1.pdf" class="btn btn-sm btn-outline"
+            download="Anandhabalan_Developer_1.pdf" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> Download Resume
+          </a>
+        </li>
+      </ul>
+
+      <!-- Navbar Action Controls -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="icon-btn theme-toggle" aria-label="Switch between dark and light mode"
+          title="Toggle theme">
+          <i class="fa-solid fa-moon icon-moon" aria-hidden="true"></i>
+          <i class="fa-solid fa-sun icon-sun" aria-hidden="true"></i>
+        </button>
+
+        <!-- Download Resume Button (Desktop) -->
+        <a href="assets/Anandhabalan_Developer_1.pdf" class="btn btn-sm btn-primary nav-resume-btn"
+          download="Anandhabalan_Developer_1.pdf" target="_blank" rel="noopener noreferrer"
+          aria-label="Download Anandhabalan's Resume PDF">
+          <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+          <span>Download Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false"
+          aria-controls="nav-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- =========================================================
+         SECTION 2: HERO
+         Greeting, dynamic typing text, CTAs, socials & profile image
+         ========================================================= -->
+    <section id="home" class="hero-section section-glow">
+      <div class="container hero-container">
+
+        <!-- Hero Text & Controls -->
+        <div class="hero-content">
+          <div class="hero-badge fade-in">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span>Available for Enterprise Opportunities</span>
+          </div>
+
+          <h1 class="hero-title fade-in">
+            <span class="greeting">Hello, I'm</span>
+            <span class="name-gradient">Anandhabalan D</span>
+          </h1>
+
+          <!-- Animated Typing Subtitle -->
+          <h2 class="typing-container fade-in" aria-label="Role: .NET Full Stack Engineer">
+            <span class="typing-prefix">I am a </span>
+            <span class="typing-text" id="typing-text"></span>
+            <span class="cursor" aria-hidden="true">&nbsp;</span>
+          </h2>
+
+          <!-- Short Tagline -->
+          <p class="hero-tagline fade-in">
+            DOT NET Full Stack Engineer specializing in <span class="highlight">C#</span>, <span
+              class="highlight">ASP.NET Core</span>, <span class="highlight">Angular</span>, <span class="highlight">SQL
+              Server</span>, and <span class="highlight">Azure</span> cloud architectures.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-cta fade-in">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#contact" class="btn btn-glass">
+              <span>Contact Me</span>
+              <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-socials fade-in" aria-label="Social Profiles">
+            <a href="https://github.com/Anandhdevns200" target="_blank" rel="noopener noreferrer" class="social-icon"
+              aria-label="GitHub Profile">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+            <!-- REPLACE: Update with your LinkedIn profile URL -->
+            <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer"
+              class="social-icon" aria-label="LinkedIn Profile (Replace with your actual LinkedIn link)">
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <!-- Direct Email Link -->
+            <a href="mailto:anandhabalan.dev@gmail.com" class="social-icon"
+              aria-label="Send email to anandhabalan.dev@gmail.com">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a href="tel:+917904928803" class="social-icon" aria-label="Call +91 7904928803">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Profile Picture with Animated Glow Ring -->
+        <div class="hero-media fade-in">
+          <div class="avatar-frame-wrapper">
+            <div class="avatar-glow-ring" aria-hidden="true"></div>
+            <div class="avatar-blob-frame">
+              <img src="assets/AD.jpg" alt="Anandhabalan D" class="hero-avatar" width="400" height="400"
+                loading="eager">
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-dotnet" aria-hidden="true">
+              <i class="devicon-dot-net-plain colored"></i>
+              <span>.NET Core</span>
+            </div>
+            <div class="floating-badge badge-azure" aria-hidden="true">
+              <i class="devicon-azure-plain colored"></i>
+              <span>Azure Cloud</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <a href="#about" class="scroll-down-indicator" aria-label="Scroll to About section">
+        <span class="mouse">
+          <span class="wheel"></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- =========================================================
+         SECTION 3: ABOUT
+         Professional summary + animated stat counters
+         ========================================================= -->
+    <section id="about" class="section">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Engineering Reliable Enterprise Software</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Bio Narrative -->
+          <div class="about-card glass-card">
+            <h3 class="about-heading">
+              <i class="fa-solid fa-code-branch accent-icon" aria-hidden="true"></i> Professional Summary
+            </h3>
+            <p class="about-text">
+              <strong>.NET Full Stack Engineer</strong> with <strong>4 years</strong> of experience building and
+              supporting enterprise applications using <strong>C#, .NET, ASP.NET Core, Web API, Angular</strong>, and
+              <strong>SQL Server</strong>. Experienced in designing scalable REST APIs, optimizing database performance,
+              implementing secure authentication and authorization using JWT/OAuth, and developing maintainable
+              application architectures.
+            </p>
+            <p class="about-text">
+              Hands-on experience with <strong>Microsoft Azure, CI/CD using Azure DevOps, Docker, Entity Framework Core,
+                Redis, RabbitMQ, Microservices</strong>, and <strong>CQRS</strong>. Proven ability to troubleshoot
+              production issues, improve application performance, and deliver reliable business solutions in enterprise
+              environments.
+            </p>
+
+            <div class="about-meta-list">
+              <div class="meta-item">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <div>
+                  <span class="meta-label">Location</span>
+                  <span class="meta-value">Chennai, Tamil Nadu, India</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
+                <div>
+                  <span class="meta-label">Current Role</span>
+                  <span class="meta-value">Software Engineer @ Psibertech</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+                <div>
+                  <span class="meta-label">Education</span>
+                  <span class="meta-value">B.E (Aeronautical)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Animated Stat Counters -->
+          <div class="stats-grid">
+            <div class="stat-card glass-card">
+              <div class="stat-icon-wrapper">
+                <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+              </div>
+              <div class="stat-number">
+                <span class="counter" data-target="4">0</span><span class="stat-symbol">+</span>
+              </div>
+              <div class="stat-label">Years Experience</div>
+              <p class="stat-sub">Building & maintaining enterprise-grade .NET solutions</p>
+            </div>
+
+            <div class="stat-card glass-card">
+              <div class="stat-icon-wrapper">
+                <i class="fa-solid fa-cubes-stacked" aria-hidden="true"></i>
+              </div>
+              <div class="stat-number">
+                <span class="counter" data-target="5">0</span>
+              </div>
+              <div class="stat-label">Enterprise Products</div>
+              <p class="stat-sub">Owned end-to-end backend, DB & cloud deployments</p>
+            </div>
+
+            <!-- <div class="stat-card glass-card">
+              <div class="stat-icon-wrapper">
+                <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+              </div>
+              <div class="stat-number">
+                <span class="stat-range">30–40%</span>
+              </div>
+              <div class="stat-label">API Speed Improvement</div>
+              <p class="stat-sub">Via RabbitMQ async processing & Redis caching</p>
+            </div> -->
+
+            <!-- <div class="stat-card glass-card">
+              <div class="stat-icon-wrapper">
+                <i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i>
+              </div>
+              <div class="stat-number">
+                <span class="stat-symbol">~</span><span class="counter" data-target="10">0</span><span class="stat-unit"> hrs/wk</span>
+              </div>
+              <div class="stat-label">Automated Workflows</div>
+              <p class="stat-sub">Saved through event processing & scheduled jobs</p>
+            </div> -->
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 4: SKILLS
+         Grouped cards with icons, one per technical category
+         ========================================================= -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <div class="title-underline"></div>
+          <p class="section-desc">Comprehensive toolkit across full-stack backend development, cloud architecture,
+            databases, and DevOps practices.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Category 1: Languages -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-code" aria-hidden="true"></i></div>
+              <h3>Languages</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="devicon-csharp-plain colored"></i> C#</span>
+              <span class="chip"><i class="devicon-go-original-wordmark colored"></i> Go</span>
+              <span class="chip"><i class="devicon-typescript-plain colored"></i> TypeScript</span>
+              <span class="chip"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+              <span class="chip"><i class="fa-solid fa-database"></i> SQL</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Backend & Frameworks -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="devicon-dot-net-plain colored" aria-hidden="true"></i></div>
+              <h3>Backend & Frameworks</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="devicon-dotnetcore-plain colored"></i> ASP.NET Core</span>
+              <span class="chip"><i class="fa-solid fa-layer-group"></i> ASP.NET MVC</span>
+              <span class="chip"><i class="fa-solid fa-network-wired"></i> Web API</span>
+              <span class="chip"><i class="fa-solid fa-arrows-split-up-and-left"></i> MediatR</span>
+              <span class="chip"><i class="fa-solid fa-bolt-lightning"></i> Dapper</span>
+              <span class="chip"><i class="fa-solid fa-table"></i> Entity Framework Core</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Frontend & UI -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-desktop" aria-hidden="true"></i></div>
+              <h3>Frontend & UI</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="devicon-angularjs-plain colored"></i> Angular</span>
+              <span class="chip"><i class="devicon-typescript-plain colored"></i> TypeScript</span>
+              <span class="chip"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+              <span class="chip"><i class="devicon-html5-plain colored"></i> HTML5</span>
+              <span class="chip"><i class="devicon-css3-plain colored"></i> CSS3</span>
+              <span class="chip"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</span>
+              <span class="chip"><i class="devicon-sass-original colored"></i> SASS</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Architecture & Design -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-sitemap" aria-hidden="true"></i></div>
+              <h3>Architecture & Design</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="fa-solid fa-cubes"></i> Clean Architecture</span>
+              <span class="chip"><i class="fa-solid fa-plug"></i> RESTful APIs</span>
+              <span class="chip"><i class="fa-solid fa-server"></i> Microservices</span>
+              <span class="chip"><i class="fa-solid fa-arrows-spin"></i> CQRS</span>
+              <span class="chip"><i class="fa-solid fa-folder-tree"></i> Repository Pattern</span>
+              <span class="chip"><i class="fa-solid fa-syringe"></i> Dependency Injection</span>
+              <span class="chip"><i class="fa-solid fa-wave-square"></i> Event-Driven Architecture</span>
+            </div>
+          </div>
+
+          <!-- Category 5: API Security -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+              <h3>API Security</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="fa-solid fa-key"></i> JWT</span>
+              <span class="chip"><i class="fa-solid fa-lock"></i> OAuth 2.0</span>
+              <span class="chip"><i class="fa-solid fa-user-shield"></i> RBAC</span>
+              <span class="chip"><i class="fa-solid fa-id-badge"></i> API Authentication & Authorization</span>
+            </div>
+          </div>
+
+          <!-- Category 6: Cloud & DevOps -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="devicon-azure-plain colored" aria-hidden="true"></i></div>
+              <h3>Cloud & DevOps</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="devicon-azure-plain colored"></i> Microsoft Azure</span>
+              <span class="chip"><i class="fa-solid fa-cloud"></i> Azure App Service</span>
+              <span class="chip"><i class="fa-solid fa-microchip"></i> Azure Functions</span>
+              <span class="chip"><i class="fa-solid fa-box-archive"></i> Azure Blob Storage</span>
+              <span class="chip"><i class="devicon-azuredevops-plain colored"></i> Azure DevOps</span>
+              <span class="chip"><i class="fa-solid fa-arrows-split-up-and-left"></i> CI/CD Pipelines</span>
+              <span class="chip"><i class="devicon-docker-plain colored"></i> Docker</span>
+              <span class="chip"><i class="fa-solid fa-server"></i> IIS</span>
+            </div>
+          </div>
+
+          <!-- Category 7: Databases -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="devicon-microsoftsqlserver-plain colored" aria-hidden="true"></i>
+              </div>
+              <h3>Databases</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="devicon-microsoftsqlserver-plain colored"></i> MS SQL Server</span>
+              <span class="chip"><i class="devicon-postgresql-plain colored"></i> PostgreSQL</span>
+              <span class="chip"><i class="fa-solid fa-gauge-high"></i> Query Optimization</span>
+              <span class="chip"><i class="fa-solid fa-list-ol"></i> Indexing</span>
+              <span class="chip"><i class="fa-solid fa-chart-line"></i> Execution Plan Tuning</span>
+            </div>
+          </div>
+
+          <!-- Category 8: Messaging & Caching -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-envelope-open-text" aria-hidden="true"></i></div>
+              <h3>Messaging & Caching</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="devicon-rabbitmq-original colored"></i> RabbitMQ</span>
+              <span class="chip"><i class="devicon-redis-plain colored"></i> Redis</span>
+            </div>
+          </div>
+
+          <!-- Category 9: Practices -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i></div>
+              <h3>Practices</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="fa-solid fa-rotate"></i> Agile Scrum</span>
+              <span class="chip"><i class="fa-solid fa-vial-circle-check"></i> TDD</span>
+              <span class="chip"><i class="fa-solid fa-magnifying-glass-chart"></i> Code Reviews</span>
+              <span class="chip"><i class="fa-solid fa-shield-virus"></i> Secure Coding</span>
+              <span class="chip"><i class="fa-solid fa-chart-area"></i> Performance Profiling</span>
+            </div>
+          </div>
+
+          <!-- Category 10: Tools -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i></div>
+              <h3>Tools</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="devicon-visualstudio-plain colored"></i> Visual Studio</span>
+              <span class="chip"><i class="devicon-git-plain colored"></i> Git</span>
+              <span class="chip"><i class="devicon-github-original"></i> GitHub</span>
+              <span class="chip"><i class="devicon-postman-plain colored"></i> Postman</span>
+              <span class="chip"><i class="devicon-vscode-plain colored"></i> VS Code</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 5: EXPERIENCE
+         Vertical animated timeline with enterprise highlights
+         ========================================================= -->
+    <section id="experience" class="section">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag">Career History</span>
+          <h2 class="section-title">Work Experience</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-line" aria-hidden="true"></div>
+
+          <!-- Timeline Item: Psibertech Solutions -->
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+
+            <div class="timeline-card glass-card">
+              <div class="experience-header">
+                <div class="exp-role-title">
+                  <h3 class="role-name">Software Engineer</h3>
+                  <div class="company-name">
+                    <i class="fa-solid fa-building" aria-hidden="true"></i>
+                    <span>Psibertech Solutions Pvt. Ltd., Chennai</span>
+                  </div>
+                </div>
+                <div class="exp-period-badge">
+                  <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                  <span>Nov 2022 – Present</span>
+                </div>
+              </div>
+
+              <!-- Key Role Scope Banner -->
+              <div class="scope-highlight-box">
+                <i class="fa-solid fa-star scope-star" aria-hidden="true"></i>
+                <p>
+                  <strong>Sole backend engineer on 5 enterprise products</strong> (10–5000 active users each), owning
+                  API design, database layer, Azure deployments, and CI/CD pipelines end-to-end.
+                </p>
+              </div>
+
+              <!-- Key Responsibilities & Achievements -->
+              <ul class="experience-bullets">
+                <li>
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <span>Designed scalable RESTful APIs using <strong>C# and ASP.NET Core</strong> following
+                    <strong>Clean Architecture</strong> and <strong>SOLID principles</strong>.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <span>Optimized backend services and database operations using <strong>EF Core, Dapper, MS SQL
+                      Server</strong>, and <strong>PostgreSQL</strong>.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <span><strong>Improved database query performance by 25%</strong> via query optimization, indexing,
+                    and <strong>CQRS read/write separation</strong>.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <span><strong>Improved API response times by 30–40%</strong> with <strong>RabbitMQ</strong> async
+                    processing and <strong>Redis</strong> distributed caching.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <span>Implemented secure authentication and authorization using <strong>JWT, OAuth 2.0</strong>, and
+                    <strong>RBAC</strong>.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <span>Deployed and maintained enterprise apps on <strong>Azure</strong> (App Services, Azure AD, Blob
+                    Storage).</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <span>Built CI/CD pipelines in <strong>Azure DevOps</strong> automating build, test, and
+                    deployment.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <span>Automated workflows with event-driven processing and scheduled jobs, <strong>saving ~10 hours of
+                      manual effort per week</strong>.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <span>Integrated <strong>Microsoft Graph API</strong> for centralized user, identity, and role
+                    management.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <span>Collaborated in <strong>Agile/Scrum</strong> teams: sprint planning, code reviews,
+                    troubleshooting, production releases.</span>
+                </li>
+              </ul>
+
+              <!-- Quick Technology Tags -->
+              <div class="exp-tech-tags">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">ASP.NET Core</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">Azure DevOps</span>
+                <span class="tech-tag">MS SQL Server</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">RabbitMQ</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 6: PROJECTS
+         Card grid with tech-stack badges and hover 3D tilt effects
+         ========================================================= -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Enterprise Projects</h2>
+          <div class="title-underline"></div>
+          <p class="section-desc">Production-grade enterprise platforms developed with high-performance .NET backends,
+            secure identity, and cloud scalability.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: AI-Powered Internal Chatbot -->
+          <article class="project-card glass-card tilt-card" data-tilt>
+            <div class="project-card-header">
+              <div class="project-category-badge">R&D / Generative AI</div>
+              <div class="project-icon-box">
+                <i class="fa-solid fa-robot" aria-hidden="true"></i>
+              </div>
+            </div>
+            <h3 class="project-title">AI-Powered Internal Chatbot (R&D)</h3>
+            <p class="project-desc">
+              Internal AI chatbot for 30+ employees handling HR queries and workflow requests; context-aware, role-based
+              responses by department and access; secured with JWT and rate limiting.
+            </p>
+            <div class="project-features">
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Context-aware HR querying</div>
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Department role-based access</div>
+              <div class="feature-item"><i class="fa-solid fa-check"></i> JWT security & rate limiting</div>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-badge">ASP.NET Core</span>
+              <span class="tech-badge">OpenAI API</span>
+              <span class="tech-badge">JWT</span>
+              <span class="tech-badge">Azure</span>
+            </div>
+          </article>
+
+          <!-- Project 2: NIBERSCONNECT -->
+          <article class="project-card glass-card tilt-card" data-tilt>
+            <div class="project-card-header">
+              <div class="project-category-badge">Fintech & Invoicing</div>
+              <div class="project-icon-box">
+                <i class="fa-solid fa-file-invoice-dollar" aria-hidden="true"></i>
+              </div>
+            </div>
+            <h3 class="project-title">NIBERSCONNECT – Invoice & Tax Automation Platform</h3>
+            <p class="project-desc">
+              Invoice management and tax automation with multi-role access; 25% faster reporting through SQL and stored
+              procedure tuning; REST APIs for high-volume financial transactions.
+            </p>
+            <div class="project-features">
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Multi-role access control</div>
+              <div class="feature-item"><i class="fa-solid fa-check"></i> 25% faster reporting via SQL tuning</div>
+              <div class="feature-item"><i class="fa-solid fa-check"></i> High-volume transaction APIs</div>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-badge">ASP.NET Core</span>
+              <span class="tech-badge">MS SQL Server</span>
+              <span class="tech-badge">Dapper</span>
+              <span class="tech-badge">Azure</span>
+            </div>
+          </article>
+
+          <!-- Project 3: EIMS -->
+          <article class="project-card glass-card tilt-card" data-tilt>
+            <div class="project-card-header">
+              <div class="project-category-badge">Enterprise Cloud</div>
+              <div class="project-icon-box">
+                <i class="fa-solid fa-boxes-stacked" aria-hidden="true"></i>
+              </div>
+            </div>
+            <h3 class="project-title">EIMS – Enterprise Inventory Management System</h3>
+            <p class="project-desc">
+              Configurable inventory, approval, and workflow modules; centralized identity and role management; modular
+              API architecture for easier onboarding.
+            </p>
+            <div class="project-features">
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Configurable approval workflows</div>
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Centralized Azure AD identity</div>
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Modular Clean Architecture</div>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-badge">ASP.NET Core</span>
+              <span class="tech-badge">Azure AD</span>
+              <span class="tech-badge">Microsoft Graph API</span>
+              <span class="tech-badge">SQL Server</span>
+            </div>
+          </article>
+
+          <!-- Project 4: StarBook -->
+          <article class="project-card glass-card tilt-card" data-tilt>
+            <div class="project-card-header">
+              <div class="project-category-badge">HR Analytics</div>
+              <div class="project-icon-box">
+                <i class="fa-solid fa-users-gear" aria-hidden="true"></i>
+              </div>
+            </div>
+            <h3 class="project-title">StarBook – HR Data Platform</h3>
+            <p class="project-desc">
+              Secure REST APIs for HR dashboards with role-scoped access; hierarchical RBAC; ~30% database performance
+              gain via tuning and indexing.
+            </p>
+            <div class="project-features">
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Hierarchical RBAC authorization</div>
+              <div class="feature-item"><i class="fa-solid fa-check"></i> ~30% DB speed boost via indexing</div>
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Real-time HR dashboard metrics</div>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-badge">ASP.NET Core</span>
+              <span class="tech-badge">PostgreSQL</span>
+              <span class="tech-badge">REST APIs</span>
+              <span class="tech-badge">RBAC</span>
+            </div>
+          </article>
+
+          <!-- Project 5: PLM -->
+          <article class="project-card glass-card tilt-card" data-tilt>
+            <div class="project-card-header">
+              <div class="project-category-badge">Security & Governance</div>
+              <div class="project-icon-box">
+                <i class="fa-solid fa-key" aria-hidden="true"></i>
+              </div>
+            </div>
+            <h3 class="project-title">PLM – Product License Management System</h3>
+            <p class="project-desc">
+              License lifecycle workflows (allocation, validation, expiry tracking, audit logging); Azure AD
+              authentication and role-based authorization; optimized SQL Server data access.
+            </p>
+            <div class="project-features">
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Full license lifecycle tracking</div>
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Audit trail & compliance logging</div>
+              <div class="feature-item"><i class="fa-solid fa-check"></i> Azure AD integrated auth</div>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-badge">ASP.NET Core</span>
+              <span class="tech-badge">MS SQL Server</span>
+              <span class="tech-badge">Azure AD</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 7: EDUCATION & CERTIFICATIONS
+         Academic background and professional certifications
+         ========================================================= -->
+    <section id="education" class="section">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Education & Certifications</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="education-grid">
+
+          <!-- Education Card -->
+          <div class="credential-card glass-card">
+            <div class="credential-header">
+              <div class="credential-icon edu-icon">
+                <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+              </div>
+              <div class="credential-badge">Degree</div>
+            </div>
+            <h3 class="credential-degree">B.E – Aeronautical Engineering</h3>
+            <h4 class="credential-institution">Apollo Engineering College, Chennai</h4>
+            <div class="credential-meta">
+              <i class="fa-regular fa-calendar-check" aria-hidden="true"></i>
+              <span>Graduated: 2021</span>
+            </div>
+            <p class="credential-detail">
+              Rigorous analytical and mathematical background providing a strong foundation for software architecture,
+              algorithmic logic, and complex system modeling.
+            </p>
+          </div>
+
+          <!-- Certification Card -->
+          <div class="credential-card glass-card">
+            <div class="credential-header">
+              <div class="credential-icon cert-icon">
+                <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+              </div>
+              <div class="credential-badge cert-badge">Certified</div>
+            </div>
+            <h3 class="credential-degree">Full Stack Developer Certification</h3>
+            <h4 class="credential-institution">Mastermind Institute, Chennai</h4>
+            <div class="credential-meta">
+              <i class="fa-solid fa-award" aria-hidden="true"></i>
+              <span>Full Stack Specialization</span>
+            </div>
+            <p class="credential-detail">
+              Intensive professional certification encompassing modern full-stack web architectures, enterprise
+              application engineering, RESTful services, database modeling, and front-end frameworks.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 8: CONTACT
+         Contact info + validated interactive contact form
+         ========================================================= -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="title-underline"></div>
+          <p class="section-desc">Interested in discussing enterprise software architecture, full-stack opportunities,
+            or engineering collaborations? Let's connect.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Left: Contact Details & Channels -->
+          <div class="contact-info-card glass-card">
+            <h3>Let's build something exceptional</h3>
+            <p class="contact-lead-text">
+              Whether you have an upcoming enterprise initiative, architecture consultation, or career inquiry, I'm
+              readily reachable through any of the channels below.
+            </p>
+
+            <div class="contact-links-list">
+              <!-- Email -->
+              <a href="mailto:anandhabalan.dev@gmail.com" class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Email</span>
+                  <span class="contact-value">anandhabalan.dev@gmail.com</span>
+                </div>
+              </a>
+
+              <!-- Phone -->
+              <a href="tel:+917904928803" class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Phone</span>
+                  <span class="contact-value">+91 7904928803</span>
+                </div>
+              </a>
+
+              <!-- Location -->
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-value">Chennai, Tamil Nadu, India</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links in Contact Card -->
+            <div class="contact-socials">
+              <span class="socials-label">Connect on professional networks:</span>
+              <div class="social-icons-row">
+                <a href="https://github.com/Anandhdevns200" target="_blank" rel="noopener noreferrer"
+                  class="social-icon" aria-label="GitHub Profile">
+                  <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </a>
+                <!-- REPLACE: Update with your LinkedIn profile URL -->
+                <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer"
+                  class="social-icon" aria-label="LinkedIn Profile (Replace with your actual LinkedIn link)">
+                  <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:anandhabalan.dev@gmail.com" class="social-icon" aria-label="Send direct email">
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-wrapper glass-card">
+            <h3 class="form-heading">Send a Message</h3>
+
+            <!-- Accessible Contact Form -->
+            <!-- Note: You can replace the action URL with your Formspree endpoint (e.g. https://formspree.io/f/your-id) -->
+            <form id="contact-form" class="contact-form" novalidate>
+
+              <!-- Name Input -->
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name <span class="required"
+                    aria-hidden="true">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-user input-icon" aria-hidden="true"></i>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. John Doe" required
+                    autocomplete="name">
+                </div>
+                <span class="error-msg" id="name-error" role="alert">Please enter your name (at least 2
+                  characters).</span>
+              </div>
+
+              <!-- Email Input -->
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="required"
+                    aria-hidden="true">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-envelope input-icon" aria-hidden="true"></i>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. john@example.com"
+                    required autocomplete="email">
+                </div>
+                <span class="error-msg" id="email-error" role="alert">Please enter a valid email address.</span>
+              </div>
+
+              <!-- Message Input -->
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required"
+                    aria-hidden="true">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-comment-dots input-icon textarea-icon" aria-hidden="true"></i>
+                  <textarea id="message" name="message" class="form-textarea" rows="5"
+                    placeholder="Share project details, inquiry, or question..." required></textarea>
+                </div>
+                <span class="error-msg" id="message-error" role="alert">Please enter your message (at least 10
+                  characters).</span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                <span class="btn-text">Send Message</span>
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              </button>
+
+              <!-- Form Notification Feedback Message -->
+              <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       SECTION 9: FOOTER
+       Copyright, social links & back-to-top button
+       ========================================================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="brand-logo" aria-label="Anandhabalan D Homepage">
+          <span class="logo-code">&lt;</span>AD<span class="logo-code">/&gt;</span>
+        </a>
+        <p class="footer-role">.NET Full Stack Engineer (C# | ASP.NET Core | Angular | SQL Server | Azure)</p>
+      </div>
+
+      <div class="footer-links" aria-label="Footer Quick Links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-socials" aria-label="Footer Socials">
+        <!-- REPLACE: Update with your GitHub profile URL -->
+        <a href="https://github.com/Anandhdevns200" target="_blank" rel="noopener noreferrer" class="social-icon"
+          aria-label="GitHub Profile">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+        <!-- REPLACE: Update with your LinkedIn profile URL -->
+        <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="social-icon"
+          aria-label="LinkedIn Profile">
+          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+        </a>
+        <a href="mailto:anandhabalan.dev@gmail.com" class="social-icon" aria-label="Email Anandhabalan">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p class="copyright">
+        &copy; <span id="current-year">2026</span> Anandhabalan D. All rights reserved.
+      </p>
+      <a href="#home" id="back-to-top" class="back-to-top-btn" aria-label="Back to top of page">
+        <span>Back to Top</span>
+        <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button for Mobile / Desktop -->
+  <button id="floating-top-btn" class="floating-top-btn" aria-label="Scroll back to top" title="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Custom JavaScript File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
